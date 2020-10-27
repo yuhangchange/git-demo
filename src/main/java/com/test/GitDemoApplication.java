@@ -6,9 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GitDemoApplication {
 
+    private static final String GIT_TEST = "GitDemoApplication";
+
     public static void main(String[] args) {
         SpringApplication.run(GitDemoApplication.class, args);
         System.out.println("test01");
+    }
+
+    public static String getStr(){
+        return GIT_TEST;
     }
 
 }
