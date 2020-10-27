@@ -11,6 +11,8 @@ public class GitDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(GitDemoApplication.class, args);
         System.out.println("test01");
+        System.out.println("test02");
+
     }
 
     public static String getStr(){
